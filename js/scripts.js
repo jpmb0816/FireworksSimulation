@@ -35,11 +35,11 @@ function render() {
 	}
 
 	ctx.font = '40px sans-serif';
-	ctx.fillText('Happy New Year!', canvas.width / 2 - 150, canvas.height / 2 + 10);
+	ctx.fillText('Happy New Year!', canvas.width / 2 - 135, canvas.height / 2 + 10);
 
 	ctx.font = '12px sans-serif';
 	ctx.fillStyle = 'white';
-	ctx.fillText('JP Beyong', canvas.width - 70, 590);
+	ctx.fillText('JP Beyong', canvas.width - 60, 590);
 }
 
 ctx.globalAlpha = 0.2;
