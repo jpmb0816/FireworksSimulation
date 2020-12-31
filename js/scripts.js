@@ -35,7 +35,8 @@ function render() {
 	}
 
 	ctx.font = '40px sans-serif';
-	ctx.fillText('Happy New Year!', canvas.width / 2 - 135, canvas.height / 2 + 10);
+	ctx.fillText('Happy New Year', canvas.width / 2 - 132, canvas.height / 2 + 10);
+	ctx.fillText('Ebriwan!', canvas.width / 2 - 65, canvas.height / 2 + 60);
 
 	ctx.font = '12px sans-serif';
 	ctx.fillStyle = 'white';
